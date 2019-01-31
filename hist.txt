@@ -1,0 +1,150 @@
+    1  cd /
+    2  ls
+    3  cp -v /vagrant/linux-4.20.5.tar.xz /usr/src/
+    4  sudo cp -v /vagrant/linux-4.20.5.tar.xz /usr/src/
+    5  yum update
+    6  sudo yum update
+    7  sudo yum install -y ncurses-devel make gcc bc bison flex elfutils-libelf-devel openssl-devel grub2
+    8  cd usr/src/
+    9  ls
+   10  tar -xvf linux-4.20.5.tar.xz 
+   11  sudo tar -xvf linux-4.20.5.tar.xz 
+   12  cd linux-4.20.5/
+   13  make oldconfig
+   14  sudo make oldconfig
+   15  ls
+   16  cp /boot/config-3.10.0-957.1.3.el7.x86_64 /usr/src/linux-4.20.5/ .config
+   17  ls
+   18  ls -la
+   19  cd ..
+   20  ls
+   21  rmdir linux-4.20.5/
+   22  sudo rmdir linux-4.20.5/
+   23  sudo rmdir linux-4.20.5
+   24  sudo rm linux-4.20.5
+   25  ls
+   26  rm linux-4.20.5
+   27  rm -rf linux-4.20.5/
+   28  sudo rm -rf linux-4.20.5/
+   29  ls
+   30  sudo tar -xvf linux-4.20.5.tar.xz 
+   31  Ð´ls 
+   32  ls
+   33  cp /boot/config-3.10.0-957.1.3.el7.x86_64 /usr/src/linux-4.20.5/ .config
+   34  cp /boot/config-3.10.0-957.1.3.el7.x86_64 /usr/src/linux-4.20.5/.config
+   35  cd linux-4.20.5/
+   36  ls
+   37  ls -la
+   38  ls
+   39  cp -v /boot/config-3.10.0-957.1.3.el7.x86_64 /usr/src/linux-4.20.5/.config
+   40  sudo cp -v /boot/config-3.10.0-957.1.3.el7.x86_64 /usr/src/linux-4.20.5/.config
+   41  ls -a
+   42  make oldconfig
+   43  sudo make oldconfig
+   44  make -j3
+   45  make -j2
+   46  sudo make -j2
+   47  sudo make -j4
+   48  â„ make -j `nproc` modules_install
+   49  â„ make -j nproc modules_install
+   50   make -j `nproc` modules_install
+   51  sudo make -j `nproc` modules_install
+   52  sudo make -j `nproc` install
+   53  Ðuname -sr
+   54  uname -sr
+   55  ÑÑcat /var/log/vboxadd-setup.log
+   56  Ñcat /var/log/vboxadd-setup.log
+   57  cat /var/log/vboxadd-setup.log
+   58   clear
+   59   cat /var/log/vboxadd-setup.log
+   60  cd /
+   61  ls
+   62  cd boot/
+   63  ls
+   64   cat /var/log/vboxadd-setup.log
+   65  uname -sr
+   66   cat /var/log/vboxadd-setup.log
+   67  sudo make -j `nproc` install
+   68  cd /usr/
+   69  ls
+   70  cd src/linux-4.20.5/
+   71  ls
+   72  sudo make -j `nproc` install
+   73  uname -sr
+   74   cat /var/log/vboxadd-setup.log
+   75  yum -y install xorg-x11-drivers xorg-x11-utils
+   76  sudo yum -y install xorg-x11-drivers xorg-x11-utils
+   77  sudo make -j `nproc` install
+   78  uname -sr
+   79  ls
+   80  cd /
+   81  cd boot/
+   82  ls
+   83  nano grub2/
+   84  cat grub2/
+   85  sudo cat grub2/
+   86  yum install nano
+   87  sudo yum install nano
+   88  nanp grub2/
+   89  nano grub2/
+   90  cd grub2/
+   91  sudo cd grub2/
+   92  ls
+   93  ls -la
+   94  ls -a
+   95  su nano /grub2/grub.conf
+   96  sudo nano /grub2/grub.conf
+   97  ls
+   98  cd /
+   99  ls
+  100  c etc/default/grub 
+  101  cd etc/default/grub 
+  102  nano etc/default/grub 
+  103  grub2-mkconfig -o /boot/grub2/grub.cfg
+  104  su grub2-mkconfig -o /boot/grub2/grub.cfg
+  105  grub-mkconfig -o /boot/grub/grub.cfg
+  106  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  107  cd boot/
+  108  ls
+  109  cd grub2/
+  110  sudo cd grub2/
+  111  ls
+  112  sudo cd grub2/
+  113  ls
+  114  sudo reboot
+  115  ls
+  116  uname -sr
+  117  grub2-mkconfig
+  118  su grub2-mkconfig
+  119  sudo grub2-mkconfig
+  120  grub2-set-default 'CentOS Linux 7 (Core), with Linux 4.2.50'
+  121  sudo grub2-set-default 'CentOS Linux 7 (Core), with Linux 4.2.50'
+  122  sudo reboot
+  123  uname -sr
+  124  ls
+  125  cd /
+  126  ls
+  127  cd usr/src/
+  128  ls
+  129  cd linux-4.20.5/
+  130  ls
+  131  ls -ls
+  132  ls -la
+  133  cp .config /vagrant/
+  134  cd /vagrant/
+  135  ls
+  136  ls -la
+  137  nano .config 
+  138  ls
+  139  nano .config 
+  140  cd /var/log/yum
+  141  cd /var/log/
+  142  ls
+  143  cp yum.log /vagrant/
+  144  sudo cp yum.log /vagrant/
+  145  history
+  146   ls
+  147  cd ..
+  148  cd /
+  149  cd /vagrant/
+  150  history > hist.txt
